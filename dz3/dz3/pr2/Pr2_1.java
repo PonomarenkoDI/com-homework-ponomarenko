@@ -1,19 +1,14 @@
-import java.util.Scanner;
-
 public class Pr2_1 {
+    static String s = "hello";
     public static void main(String[] args) {
-       Scanner monetca = new Scanner(System.in);
-       System.out.println("Введите любое число от 0 до 20: ");
-       int num = monetca.nextInt();
-       //int numberMax = 20;
-       //i//f (num <=10 || nu)
-      //     System.out.println("Орел");
-     //  else if (num >=10 ) {
-           
-       }
-
+        homework storage1 = new homework();
+        System.out.println(storage1.storage(s));
     }
-
-
-
-
+    public void storage() {
+    }
+    static class homework {
+        int storage(String s) {
+            return s.length() * 2;
+        }
+    }
+}
