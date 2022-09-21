@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class task6 {
+public class Task6 {
     public static void main(String[] args) {
         Scanner year = new Scanner(System.in);
         System.out.println("Enter year: ");
