@@ -1,5 +1,4 @@
 .git
 .idea
 out
-classworkModule3.iml
-README.md
+*.iml
