@@ -1,11 +1,9 @@
 package homeWork6;
 
-public class Stavka extends Oplata {
+public class Pochas extends Oplata {
 
-<<<<<<< HEAD
-=======
-    public Stavka() {
-        super.paymentTapeName = "Stavka";
+    public Pochas() {
+        super.paymentTapeName = "Pochasovay";
         super.nalog = 20;
     }
 
@@ -15,5 +13,4 @@ public class Stavka extends Oplata {
         return zarplata - nalogTotal;
 
     }
->>>>>>> 150663840ab20718ed9e998f3e663870c4746522
 }
