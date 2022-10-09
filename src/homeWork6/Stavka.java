@@ -1,12 +1,10 @@
 package homeWork6;
 
 public class Stavka extends Oplata {
-
-<<<<<<< HEAD
-=======
     public Stavka() {
         super.paymentTapeName = "Stavka";
         super.nalog = 20;
+        super.child = 5;
     }
 
     @Override
@@ -15,5 +13,10 @@ public class Stavka extends Oplata {
         return zarplata - nalogTotal;
 
     }
->>>>>>> 150663840ab20718ed9e998f3e663870c4746522
+
+    @Override
+    public double calculatorOfPaymentWithChild(int zarplata) {
+        double nalogChild = nalog + child;
+        return zarplata - (zarplata * nalogChild/100);
+    }
 }

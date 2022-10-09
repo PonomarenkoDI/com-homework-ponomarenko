@@ -1,16 +1,10 @@
 package homeWork6;
-
-<<<<<<< HEAD
-public class Oplata {
-
-
-}
-=======
 public abstract class Oplata {
+    int nalog;
      String paymentTapeName;
-     int nalog;
-
+     int child;
     public abstract double calculateOfPayment(int zarplata);
+    public abstract double calculatorOfPaymentWithChild (int zarplata);
 
     @Override
     public String toString() {
@@ -19,4 +13,3 @@ public abstract class Oplata {
     }
 }
 
->>>>>>> 150663840ab20718ed9e998f3e663870c4746522

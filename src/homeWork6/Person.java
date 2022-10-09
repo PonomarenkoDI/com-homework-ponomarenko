@@ -7,6 +7,7 @@ public class Person {
     int zarplata;
     Oplata typeOplata;
     double totalZarplata;
+    int child;
 
     public void getPaymentMinusNalog () {
         if (workingDay != 0) {
@@ -24,10 +25,12 @@ public class Person {
     @Override
     public String toString() {
         return "Person:" +
-                "FIO=" + FIO + "typeOplata" + typeOplata +
-                ", zarplata=" + zarplata +
+                "FIO=" + FIO +
                 ", workingDay=" + workingDay +
                 ", workingHours=" + workingHours +
-                ", totalZarplata=" + totalZarplata;
+                ", zarplata=" + zarplata +
+                ", typeOplata=" + typeOplata +
+                ", totalZarplata=" + totalZarplata +
+                ", child=" + child;
     }
 }
